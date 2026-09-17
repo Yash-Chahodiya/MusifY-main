@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MusifY - My Songs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        MusifY <span>🎵</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link active">My Songs</a></li>
+        <li><a href="songs.html" class="nav-link">Regular Songs</a></li>
+        <li><a href="playlist.html" class="nav-link">Playlist</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content Container -->
+  <main class="container">
+    
+    <!-- Welcome Banner -->
+    <div class="banner">
+      <div class="banner-content">
+        <h2>Your Personal Collection 🎧</h2>
+        <p>Access your favorite tracks, custom uploads, and recently played songs.</p>
+      </div>
+      <a href="songs.html" class="banner-btn">Explore Regular Songs</a>
+    </div>
+
+    <!-- Page Title & Search -->
+    <header class="page-header">
+      <h1>My Songs</h1>
+      <p>8 songs saved in your library</p>
+      
+      <div class="search-box">
+        <input type="text" id="song-search" placeholder="Search in your saved songs...">
+      </div>
+
+      <div class="filter-tags">
+        <button class="tag active">All Songs</button>
+        <button class="tag">Favorites ❤️</button>
+        <button class="tag">Downloaded 📥</button>
+        <button class="tag">Recently Played 🕒</button>
+      </div>
+    </header>
+
+    <!-- Song List -->
+    <section class="song-list">
+      
+      <!-- Song 1 -->
+      <div class="song-item" data-title="Midnight City" data-artist="M83" data-icon="🌌">
+        <div class="song-left">
+          <span class="song-index">1</span>
+          <div class="song-thumb">🌌</div>
+          <div class="song-info">
+            <h3>Midnight City</h3>
+            <p>M83</p>
+          </div>
+        </div>
+        <div class="song-album">Hurry Up, We're Dreaming</div>
+        <div class="song-right">
+          <span class="song-duration">4:03</span>
+          <button class="btn-icon btn-like liked" title="Liked">❤️</button>
+          <button class="btn-play" title="Play">▶</button>
+        </div>
+      </div>
+
+      <!-- Song 2 -->
+      <div class="song-item" data-title="Starboy" data-artist="The Weeknd, Daft Punk" data-icon="⚡">
+        <div class="song-left">
+          <span class="song-index">2</span>
+          <div class="song-thumb" style="background: linear-gradient(135deg, #ef4444, #8b5cf6);">⚡</div>
+          <div class="song-info">
+            <h3>Starboy</h3>
+            <p>The Weeknd, Daft Punk</p>
+          </div>
+        </div>
+        <div class="song-album">Starboy</div>
+        <div class="song-right">
+          <span class="song-duration">3:50</span>
+          <button class="btn-icon btn-like liked" title="Liked">❤️</button>
+          <button class="btn-play" title="Play">▶</button>
+        </div>
+      </div>
+
+      <!-- Song 3 -->
+      <div class="song-item" data-title="Blinding Lights" data-artist="The Weeknd" data-icon="✨">
+        <div class="song-left">
+          <span class="song-index">3</span>
+          <div class="song-thumb" style="background: linear-gradient(135deg, #f59e0b, #ec4899);">✨</div>
+          <div class="song-info">
+            <h3>Blinding Lights</h3>
+            <p>The Weeknd</p>
+          </div>
+        </div>
+        <div class="song-album">After Hours</div>
+        <div class="song-right">
+          <span class="song-duration">3:20</span>
+          <button class="btn-icon btn-like liked" title="Liked">❤️</button>
+          <button class="btn-play" title="Play">▶</button>
+        </div>
+      </div>
+
+      <!-- Song 4 -->
+      <div class="song-item" data-title="As It Was" data-artist="Harry Styles" data-icon="🌅">
+        <div class="song-left">
+          <span class="song-index">4</span>
+          <div class="song-thumb" style="background: linear-gradient(135deg, #06b6d4, #3b82f6);">🌅</div>
+          <div class="song-info">
+            <h3>As It Was</h3>
+            <p>Harry Styles</p>
+          </div>
+        </div>
+        <div class="song-album">Harry's House</div>
+        <div class="song-right">
+          <span class="song-duration">2:47</span>
+          <button class="btn-icon btn-like" title="Like">🤍</button>
+          <button class="btn-play" title="Play">▶</button>
+        </div>
+      </div>
+
+      <!-- Song 5 -->
+      <div class="song-item" data-title="Heat Waves" data-artist="Glass Animals" data-icon="🌊">
+        <div class="song-left">
+          <span class="song-index">5</span>
+          <div class="song-thumb" style="background: linear-gradient(135deg, #10b981, #06b6d4);">🌊</div>
+          <div class="song-info">
+            <h3>Heat Waves</h3>
+            <p>Glass Animals</p>
+          </div>
+        </div>
+        <div class="song-album">Dreamland</div>
+        <div class="song-right">
+          <span class="song-duration">3:58</span>
+          <button class="btn-icon btn-like liked" title="Liked">❤️</button>
+          <button class="btn-play" title="Play">▶</button>
+        </div>
+      </div>
+
+      <!-- Song 6 -->
+      <div class="song-item" data-title="Stay" data-artist="The Kid LAROI, Justin Bieber" data-icon="🔥">
+        <div class="song-left">
+          <span class="song-index">6</span>
+          <div class="song-thumb" style="background: linear-gradient(135deg, #8b5cf6, #ec4899);">🔥</div>
+          <div class="song-info">
+            <h3>Stay</h3>
+            <p>The Kid LAROI, Justin Bieber</p>
+          </div>
+        </div>
+        <div class="song-album">F*CK LOVE 3: OVER YOU</div>
+        <div class="song-right">
+          <span class="song-duration">2:21</span>
+          <button class="btn-icon btn-like" title="Like">🤍</button>
+          <button class="btn-play" title="Play">▶</button>
+        </div>
+      </div>
+
+      <!-- Song 7 -->
+      <div class="song-item" data-title="Save Your Tears" data-artist="The Weeknd" data-icon="💧">
+        <div class="song-left">
+          <span class="song-index">7</span>
+          <div class="song-thumb" style="background: linear-gradient(135deg, #3b82f6, #6366f1);">💧</div>
+          <div class="song-info">
+            <h3>Save Your Tears</h3>
+            <p>The Weeknd</p>
+          </div>
+        </div>
+        <div class="song-album">After Hours</div>
+        <div class="song-right">
+          <span class="song-duration">3:35</span>
+          <button class="btn-icon btn-like liked" title="Liked">❤️</button>
+          <button class="btn-play" title="Play">▶</button>
+        </div>
+      </div>
+
+      <!-- Song 8 -->
+      <div class="song-item" data-title="Sunflower" data-artist="Post Malone, Swae Lee" data-icon="🌻">
+        <div class="song-left">
+          <span class="song-index">8</span>
+          <div class="song-thumb" style="background: linear-gradient(135deg, #f59e0b, #10b981);">🌻</div>
+          <div class="song-info">
+            <h3>Sunflower</h3>
+            <p>Post Malone, Swae Lee</p>
+          </div>
+        </div>
+        <div class="song-album">Spider-Man: Into the Spider-Verse</div>
+        <div class="song-right">
+          <span class="song-duration">2:38</span>
+          <button class="btn-icon btn-like liked" title="Liked">❤️</button>
+          <button class="btn-play" title="Play">▶</button>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- Sticky Bottom Player Bar -->
+  <footer class="player-bar">
+    <div class="player-left">
+      <div class="player-thumb" id="player-thumb">🌌</div>
+      <div class="player-details">
+        <div class="player-title" id="player-song-title">Midnight City</div>
+        <div class="player-artist" id="player-song-artist">M83</div>
+      </div>
+    </div>
+
+    <div class="player-center">
+      <div class="player-controls">
+        <button class="ctrl-btn" title="Previous">⏮</button>
+        <button class="ctrl-play" id="main-play-btn" title="Play/Pause">▶</button>
+        <button class="ctrl-btn" title="Next">⏭</button>
+      </div>
+      <div class="player-progress-container">
+        <span class="time-text">1:18</span>
+        <div class="progress-bar">
+          <div class="progress-fill"></div>
+        </div>
+        <span class="time-text">4:03</span>
+      </div>
+    </div>
+
+    <div class="player-right">
+      <span style="font-size: 0.9rem; color: var(--text-muted);">🔊</span>
+      <div class="volume-bar">
+        <div class="volume-fill"></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="player.js"></script>
+</body>
+</html>

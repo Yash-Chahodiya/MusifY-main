@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MusifY - Regular Songs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        MusifY <span>🎵</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link">My Songs</a></li>
+        <li><a href="songs.html" class="nav-link active">Regular Songs</a></li>
+        <li><a href="playlist.html" class="nav-link">Playlist</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content Container -->
+  <main class="container">
+    
+    <!-- Header -->
+    <header class="page-header">
+      <h1>Regular Songs</h1>
+      <p>Explore today's most popular hits, global chart toppers, and trending tracks.</p>
+
+      <!-- Search Input -->
+      <div class="search-box">
+        <input type="text" id="song-search" placeholder="Search by song name, artist, or album...">
+      </div>
+
+      <!-- Genre Filter Badges -->
+      <div class="filter-tags">
+        <button class="tag active">All Genres</button>
+        <button class="tag">Pop</button>
+        <button class="tag">Hip-Hop / Rap</button>
+        <button class="tag">Rock & Indie</button>
+        <button class="tag">Electronic / Dance</button>
+        <button class="tag">Acoustic & Chill</button>
+      </div>
+    </header>
+
+    <!-- Song List -->
+    <section class="song-list">
+      
+      <!-- Song 1 -->
+      <div class="song-item" data-title="Shape of You" data-artist="Ed Sheeran" data-icon="🎸">
+        <div class="song-left">
+          <span class="song-index">1</span>
+          <div class="song-thumb grad-2">🎸</div>
+          <div class="song-info">
+            <h3>Shape of You</h3>
+            <p>Ed Sheeran</p>
+          </div>
+        </div>
+        <div class="song-album">÷ (Divide)</div>
+        <div class="song-right">
+          <span class="song-duration">3:53</span>
+          <button class="btn-icon btn-like" title="Like">🤍</button>
+          <button class="btn-play" title="Play">▶</button>
+        </div>
+      </div>
+
+      <!-- Song 2 -->
+      <div class="song-item" data-title="Levitating" data-artist="Dua Lipa" data-icon="🪩">
+        <div class="song-left">
+          <span class="song-index">2</span>
+          <div class="song-thumb grad-1">🪩</div>
+          <div class="song-info">
+            <h3>Levitating</h3>
+            <p>Dua Lipa</p>
+          </div>
+        </div>
+        <div class="song-album">Future Nostalgia</div>
+        <div class="song-right">
+          <span class="song-duration">3:23</span>
+          <button class="btn-icon btn-like liked" title="Liked">❤️</button>
+          <button class="btn-play" title="Play">▶</button>
+        </div>
+      </div>
+
+      <!-- Song 3 -->
+      <div class="song-item" data-title="Believer" data-artist="Imagine Dragons" data-icon="⚡">
+        <div class="song-left">
+          <span class="song-index">3</span>
+          <div class="song-thumb grad-4">⚡</div>
+          <div class="song-info">
+            <h3>Believer</h3>
+            <p>Imagine Dragons</p>
+          </div>
+        </div>
+        <div class="song-album">Evolve</div>
+        <div class="song-right">
+          <span class="song-duration">3:24</span>
+          <button class="btn-icon btn-like" title="Like">🤍</button>
+          <button class="btn-play" title="Play">▶</button>
+        </div>
+      </div>
+
+      <!-- Song 4 -->
+      <div class="song-item" data-title="Bad Guy" data-artist="Billie Eilish" data-icon="🖤">
+        <div class="song-left">
+          <span class="song-index">4</span>
+          <div class="song-thumb grad-3">🖤</div>
+          <div class="song-info">
+            <h3>Bad Guy</h3>
+            <p>Billie Eilish</p>
+          </div>
+        </div>
+        <div class="song-album">WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?</div>
+        <div class="song-right">
+          <span class="song-duration">3:14</span>
+          <button class="btn-icon btn-like liked" title="Liked">❤️</button>
+          <button class="btn-play" title="Play">▶</button>
+        </div>
+      </div>
+
+      <!-- Song 5 -->
+      <div class="song-item" data-title="Someone You Loved" data-artist="Lewis Capaldi" data-icon="🎹">
+        <div class="song-left">
+          <span class="song-index">5</span>
+          <div class="song-thumb grad-5">🎹</div>
+          <div class="song-info">
+            <h3>Someone You Loved</h3>
+            <p>Lewis Capaldi</p>
+          </div>
+        </div>
+        <div class="song-album">Divinely Uninspired To A Hellish Extent</div>
+        <div class="song-right">
+          <span class="song-duration">3:02</span>
+          <button class="btn-icon btn-like" title="Like">🤍</button>
+          <button class="btn-play" title="Play">▶</button>
+        </div>
+      </div>
+
+      <!-- Song 6 -->
+      <div class="song-item" data-title="Counting Stars" data-artist="OneRepublic" data-icon="✨">
+        <div class="song-left">
+          <span class="song-index">6</span>
+          <div class="song-thumb grad-6">✨</div>
+          <div class="song-info">
+            <h3>Counting Stars</h3>
+            <p>OneRepublic</p>
+          </div>
+        </div>
+        <div class="song-album">Native</div>
+        <div class="song-right">
+          <span class="song-duration">4:17</span>
+          <button class="btn-icon btn-like liked" title="Liked">❤️</button>
+          <button class="btn-play" title="Play">▶</button>
+        </div>
+      </div>
+
+      <!-- Song 7 -->
+      <div class="song-item" data-title="Wake Me Up" data-artist="Avicii" data-icon="🌅">
+        <div class="song-left">
+          <span class="song-index">7</span>
+          <div class="song-thumb grad-4">🌅</div>
+          <div class="song-info">
+            <h3>Wake Me Up</h3>
+            <p>Avicii</p>
+          </div>
+        </div>
+        <div class="song-album">True</div>
+        <div class="song-right">
+          <span class="song-duration">4:07</span>
+          <button class="btn-icon btn-like" title="Like">🤍</button>
+          <button class="btn-play" title="Play">▶</button>
+        </div>
+      </div>
+
+      <!-- Song 8 -->
+      <div class="song-item" data-title="Closer" data-artist="The Chainsmokers ft. Halsey" data-icon="🎧">
+        <div class="song-left">
+          <span class="song-index">8</span>
+          <div class="song-thumb grad-2">🎧</div>
+          <div class="song-info">
+            <h3>Closer</h3>
+            <p>The Chainsmokers ft. Halsey</p>
+          </div>
+        </div>
+        <div class="song-album">Collage</div>
+        <div class="song-right">
+          <span class="song-duration">4:04</span>
+          <button class="btn-icon btn-like liked" title="Liked">❤️</button>
+          <button class="btn-play" title="Play">▶</button>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- Sticky Bottom Player Bar -->
+  <footer class="player-bar">
+    <div class="player-left">
+      <div class="player-thumb" id="player-thumb">🎸</div>
+      <div class="player-details">
+        <div class="player-title" id="player-song-title">Shape of You</div>
+        <div class="player-artist" id="player-song-artist">Ed Sheeran</div>
+      </div>
+    </div>
+
+    <div class="player-center">
+      <div class="player-controls">
+        <button class="ctrl-btn" title="Previous">⏮</button>
+        <button class="ctrl-play" id="main-play-btn" title="Play/Pause">▶</button>
+        <button class="ctrl-btn" title="Next">⏭</button>
+      </div>
+      <div class="player-progress-container">
+        <span class="time-text">0:45</span>
+        <div class="progress-bar">
+          <div class="progress-fill" style="width: 25%;"></div>
+        </div>
+        <span class="time-text">3:53</span>
+      </div>
+    </div>
+
+    <div class="player-right">
+      <span style="font-size: 0.9rem; color: var(--text-muted);">🔊</span>
+      <div class="volume-bar">
+        <div class="volume-fill"></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="player.js"></script>
+</body>
+</html>

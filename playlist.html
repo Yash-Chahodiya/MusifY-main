@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MusifY - Playlists</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        MusifY <span>🎵</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link">My Songs</a></li>
+        <li><a href="songs.html" class="nav-link">Regular Songs</a></li>
+        <li><a href="playlist.html" class="nav-link active">Playlist</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content Container -->
+  <main class="container">
+    
+    <!-- Page Header -->
+    <header class="page-header" style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 12px;">
+      <div>
+        <h1>Playlists</h1>
+        <p>Your curated mixes, mood collections, and community favorites.</p>
+      </div>
+      <button class="tag active" style="padding: 10px 20px; font-size: 0.95rem; border-radius: 20px;">
+        + Create Playlist
+      </button>
+    </header>
+
+    <!-- Filter Categories -->
+    <div class="filter-tags">
+      <button class="tag active">All Playlists</button>
+      <button class="tag">Created by You</button>
+      <button class="tag">Study & Focus</button>
+      <button class="tag">Workout 🏃</button>
+      <button class="tag">Relax & Chill</button>
+    </div>
+
+    <!-- Playlist Cards Grid -->
+    <section class="playlist-grid">
+      
+      <!-- Playlist 1 -->
+      <div class="playlist-card">
+        <div class="playlist-cover grad-1">☕</div>
+        <h3>Chill Lo-Fi Study</h3>
+        <p>Relaxing beats and smooth instrumentals to help you focus.</p>
+        <div class="playlist-meta">28 Songs • 1 hr 45 min</div>
+      </div>
+
+      <!-- Playlist 2 -->
+      <div class="playlist-card">
+        <div class="playlist-cover grad-4">🔥</div>
+        <h3>Workout Energy</h3>
+        <p>High tempo bass and upbeat anthems to crush your workout.</p>
+        <div class="playlist-meta">35 Songs • 2 hr 10 min</div>
+      </div>
+
+      <!-- Playlist 3 -->
+      <div class="playlist-card">
+        <div class="playlist-cover grad-2">🌟</div>
+        <h3>Today's Top Hits</h3>
+        <p>The hottest and most popular songs charting worldwide.</p>
+        <div class="playlist-meta">50 Songs • 2 hr 50 min</div>
+      </div>
+
+      <!-- Playlist 4 -->
+      <div class="playlist-card">
+        <div class="playlist-cover grad-5">🌃</div>
+        <h3>Late Night Drive</h3>
+        <p>Atmospheric synthwave and dreamy vocals for night road trips.</p>
+        <div class="playlist-meta">22 Songs • 1 hr 25 min</div>
+      </div>
+
+      <!-- Playlist 5 -->
+      <div class="playlist-card">
+        <div class="playlist-cover grad-3">🍃</div>
+        <h3>Acoustic Morning</h3>
+        <p>Calm acoustic guitars and gentle melodies for a fresh start.</p>
+        <div class="playlist-meta">19 Songs • 1 hr 12 min</div>
+      </div>
+
+      <!-- Playlist 6 -->
+      <div class="playlist-card">
+        <div class="playlist-cover grad-6">📼</div>
+        <h3>Retro Synthwave</h3>
+        <p>80s nostalgia, neon lights, and analog synthesizer grooves.</p>
+        <div class="playlist-meta">26 Songs • 1 hr 40 min</div>
+      </div>
+
+    </section>
+
+    <!-- Featured Playlist Songs Preview -->
+    <section style="margin-top: 40px;">
+      <h2 style="font-size: 1.4rem; margin-bottom: 14px;">Featured in "Chill Lo-Fi Study"</h2>
+      <div class="song-list">
+        
+        <div class="song-item" data-title="Coffee in the Rain" data-artist="Kushment" data-icon="☕">
+          <div class="song-left">
+            <span class="song-index">1</span>
+            <div class="song-thumb grad-1">☕</div>
+            <div class="song-info">
+              <h3>Coffee in the Rain</h3>
+              <p>Kushment</p>
+            </div>
+          </div>
+          <div class="song-album">Rainy Days Vol. 1</div>
+          <div class="song-right">
+            <span class="song-duration">2:15</span>
+            <button class="btn-icon btn-like liked" title="Liked">❤️</button>
+            <button class="btn-play" title="Play">▶</button>
+          </div>
+        </div>
+
+        <div class="song-item" data-title="Deep Midnight Thoughts" data-artist="Aso & Middle School" data-icon="🌙">
+          <div class="song-left">
+            <span class="song-index">2</span>
+            <div class="song-thumb grad-5">🌙</div>
+            <div class="song-info">
+              <h3>Deep Midnight Thoughts</h3>
+              <p>Aso & Middle School</p>
+            </div>
+          </div>
+          <div class="song-album">Nocturnal</div>
+          <div class="song-right">
+            <span class="song-duration">2:48</span>
+            <button class="btn-icon btn-like" title="Like">🤍</button>
+            <button class="btn-play" title="Play">▶</button>
+          </div>
+        </div>
+
+        <div class="song-item" data-title="Tokyo Twilight" data-artist="Saib" data-icon="🏮">
+          <div class="song-left">
+            <span class="song-index">3</span>
+            <div class="song-thumb grad-2">🏮</div>
+            <div class="song-info">
+              <h3>Tokyo Twilight</h3>
+              <p>Saib</p>
+            </div>
+          </div>
+          <div class="song-album">Around The World</div>
+          <div class="song-right">
+            <span class="song-duration">3:04</span>
+            <button class="btn-icon btn-like liked" title="Liked">❤️</button>
+            <button class="btn-play" title="Play">▶</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Sticky Bottom Player Bar -->
+  <footer class="player-bar">
+    <div class="player-left">
+      <div class="player-thumb" id="player-thumb">☕</div>
+      <div class="player-details">
+        <div class="player-title" id="player-song-title">Coffee in the Rain</div>
+        <div class="player-artist" id="player-song-artist">Kushment</div>
+      </div>
+    </div>
+
+    <div class="player-center">
+      <div class="player-controls">
+        <button class="ctrl-btn" title="Previous">⏮</button>
+        <button class="ctrl-play" id="main-play-btn" title="Play/Pause">▶</button>
+        <button class="ctrl-btn" title="Next">⏭</button>
+      </div>
+      <div class="player-progress-container">
+        <span class="time-text">0:32</span>
+        <div class="progress-bar">
+          <div class="progress-fill" style="width: 30%;"></div>
+        </div>
+        <span class="time-text">2:15</span>
+      </div>
+    </div>
+
+    <div class="player-right">
+      <span style="font-size: 0.9rem; color: var(--text-muted);">🔊</span>
+      <div class="volume-bar">
+        <div class="volume-fill"></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="player.js"></script>
+</body>
+</html>
